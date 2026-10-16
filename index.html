@@ -1,0 +1,153 @@
+<!-- =========================================================
+STEP 1: Add the required HTML5 skeleton
+========================================================= -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schneider Cinema</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- =========================================================
+    STEP 2: Build the "top area" (site name + navigation) using simple HTML
+    ========================================================= -->
+<header class="site-header">
+  <div class="container header-inner">
+    <p class="brand"><a href="index.html">Schneider Cinema<span class="dot">.</span></a></p>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="#features">Why Schneider Cinema</a></li>
+        <li><a href="#featured">Movie of the Week</a></li>
+        <li><a href="#more">Top Genres</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <!-- =========================================================
+    STEP 3: Hero section + "Get Started button" as a link
+    (hero image is now a CSS background, see .hero in styles.css)
+    ========================================================= -->
+<main>
+  <section id="hero" class="hero">
+    <div class="container hero-content">
+      <h1>Find Your Next Favorite Movie</h1>
+      <p class="hero-subhead">Handpicked recommendations so you spend less time scrolling and more time watching.</p>
+      <a class="btn btn-dark" href="#features">Get Started</a>
+    </div>
+  </section>
+
+
+    <!-- =========================================================
+    STEP 4: Features section (3 blocks) + featured content section
+    ========================================================= -->
+  <section id="features" class="features">
+    <div class="container">
+      <h2 class="section-title">Why Schneider Cinema</h2>
+
+      <div class="features-grid">
+        <div class="feature">
+          <div class="icon"><img src="images/film.svg" alt="Film strip icon"></div>
+          <h3>Picks by Genre</h3>
+          <p>Browse recommendations sorted by genre, from horror to rom-coms, so you always find something that fits your mood.</p>
+        </div>
+
+        <div class="feature">
+          <div class="icon"><img src="images/star.svg" alt="Star icon"></div>
+          <h3>Hidden Gems</h3>
+          <p>Discover great movies that never got the attention they deserved.</p>
+        </div>
+
+        <div class="feature">
+          <div class="icon"><img src="images/eye-slash.svg" alt="Crossed-out eye icon"></div>
+          <h3>No Spoilers</h3>
+          <p>Every recommendation tells you why it's worth watching without giving away the plot.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="featured" class="featured">
+    <div class="container">
+      <h2 class="section-title">Movie of the Week</h2>
+      <p class="section-lede">Each week we pick one movie everyone should see at least once. This week's pick: Pulp Fiction, the story of two hitmen that made Tarantino a star.</p>
+      <div class="media">
+        <img src="images/featured.jpg" alt="Vincent Vega and Mia Wallace doing the Twist on a dance floor">
+      </div>
+    </div>
+  </section>
+
+
+    <!-- =========================================================
+    STEP 5: Two secondary content blocks + CTA section
+    ========================================================= -->
+  <section id="more" class="secondary">
+    <div class="container">
+      <h2 class="section-title">Top Genres</h2>
+
+      <div class="secondary-grid">
+        <div class="card">
+          <div class="card-text">
+            <h3>Horror Worth Losing Sleep Over</h3>
+            <p>Scary movies that actually deliver, from slow-burn dread to all-out jump scares.</p>
+            <a class="btn btn-outline" href="#">View more horror recommendations</a>
+          </div>
+          <div class="card-image img-a" role="img" aria-label="Two people in creepy clown and rabbit masks standing in a dark doorway"></div>
+        </div>
+
+        <div class="card">
+          <div class="card-text">
+            <h3>Feel-Good Comedies</h3>
+            <p>Movies guaranteed to put you in a better mood, perfect for a night in with friends.</p>
+            <a class="btn btn-outline" href="#">View more comedy recommendations</a>
+          </div>
+          <div class="card-image img-b" role="img" aria-label="Kids laughing as they climb a pole above floodwater at a festival"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="cta">
+    <div class="container cta-inner">
+      <h2 class="section-title">Heard enough?</h2>
+      <p class="section-lede">Have a movie you think we should recommend? Send it our way.</p>
+      <a class="btn btn-dark" href="mailto:mdschneider7@wisc.edu">Email us a movie suggestion</a>
+    </div>
+  </section>
+</main>
+
+
+    <!-- =========================================================
+    STEP 6: Footer
+    ========================================================= -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-left">
+      <p class="brand">Schneider Cinema<span class="dot">.</span></p>
+      <p>&copy; 2026 Schneider Cinema. All rights reserved.</p>
+    </div>
+
+    <div class="footer-cols">
+      <div class="footer-col">
+        <h3>Explore</h3>
+        <a href="#hero">Back to top</a>
+        <a href="#features">Why Schneider Cinema</a>
+        <a href="#featured">Movie of the Week</a>
+      </div>
+      <div class="footer-col">
+        <h3>Get in touch</h3>
+        <a href="#more">Top Genres</a>
+        <a href="#contact">Contact us</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  </body>
+</html>
